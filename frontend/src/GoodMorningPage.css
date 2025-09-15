@@ -1,0 +1,64 @@
+
+
+/* GoodMorningPage.css - Modern Pastel UI */
+.good-morning-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #dbeafe 0%, #e0c3fc 100%);
+}
+
+.good-morning-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #7c83fd;
+  margin-bottom: 24px;
+  text-shadow: 1px 2px 8px rgba(124,131,253,0.10);
+}
+
+.good-morning-form {
+  background: #fff;
+  border: 1.5px solid #c7d2fe;
+  box-shadow: 0 2px 16px rgba(124,131,253,0.08);
+  border-radius: 18px;
+  padding: 32px 28px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.good-morning-form input {
+  font-size: 1rem;
+  padding: 10px 12px;
+  border: 1.5px solid #c7d2fe;
+  border-radius: 8px;
+  outline: none;
+  background: #f3f8ff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.good-morning-form input:focus {
+  border-color: #e0c3fc;
+  box-shadow: 0 0 0 2px #e0c3fc44;
+}
+
+.good-morning-form button {
+  padding: 12px 0;
+  background: linear-gradient(90deg, #a5dee5 0%, #e0c3fc 100%);
+  color: #7c83fd;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(124,131,253,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+
+.good-morning-form button:hover {
+  background: linear-gradient(90deg, #f3f8ff 0%, #e0c3fc 100%);
+  color: #e0c3fc;
+}
